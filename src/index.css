@@ -1,0 +1,60 @@
+.container{
+  margin: 10px 10px 0 10px;
+}
+.MuiFormGroup-root{
+  margin-left: 45%;
+}
+
+input{
+  width: 70vw !important;
+}
+
+.submint_button{
+  margin: 50px 10px 0 10px !important;
+}
+
+.fieldForm input{
+  width: 250px !important;
+}
+
+.container {
+  position: relative;
+}
+.editBtn {
+  color: rgb(175, 175, 175);
+  width: 16px !important;
+  height: 16px !important;
+  position: absolute !important;
+}
+.editBtn--edit {
+  right: 2.5rem;
+  top:2%; 
+}
+.editBtn--delete {
+  right: 1rem;
+  top:2%; 
+}
+
+.text_title{
+  font-size: 15px;
+  margin: 10px 20% 10px 20%;
+}
+
+
+.dragging {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.gu-mirror {
+  position: absolute !important;
+  margin: 0 !important;
+  z-index: 9999 !important;
+  opacity: 0.8;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  filter: alpha(opacity=80);
+}
+
+.gu-hide {
+  display: none !important;
+}
